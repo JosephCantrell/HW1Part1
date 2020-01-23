@@ -15,12 +15,12 @@ namespace HW1Part1
                 
                 if (encDecDecision.Equals("E") || encDecDecision.Equals("e"))                   // Encode option
                 {
-                    Console.Write("Input the string you want to encode: ");
+                    Console.Write("Input the plaintext you want to encode: ");
                     userInput = Console.ReadLine();
                     Console.Write("What is your key: ");
                     string userShift = Console.ReadLine();
                     encryptedResult = EncDec(userInput, 1, Convert.ToInt32(userShift));
-                    Console.WriteLine("Encrypted Message: " + encryptedResult);
+                    Console.WriteLine("Ciphertext Message: " + encryptedResult);
                     
                 }
                 if (encDecDecision.Equals("D") || encDecDecision.Equals("d"))
@@ -29,7 +29,7 @@ namespace HW1Part1
                     string decryptedResult;
                     if (encryptedResult.Length != 0)
                     {
-                        Console.Write("You have a previously saved encrypted message, would you like to decryt it (y yes, n no): ");
+                        Console.Write("You have a previously saved ciphertext message, would you like to decryt it (y yes, n no): ");
                         useEncryptedMessage = Console.ReadLine();
                         
                         if (useEncryptedMessage.Equals("y") || useEncryptedMessage.Equals("Y"))
@@ -45,12 +45,12 @@ namespace HW1Part1
                     }
                     else
                     {
-                        Console.Write("Input the string you want to encode: ");
+                        Console.Write("Input the ciphertext you want to decrypt: ");
                         userInput = Console.ReadLine();
                         Console.Write("What is your key: ");
                         string userShift = Console.ReadLine();
                         decryptedResult = EncDec(userInput, 2, Convert.ToInt32(userShift));
-                        Console.WriteLine("Decrpyted Message: " + decryptedResult);
+                        Console.WriteLine("Plaintext Message: " + decryptedResult);
                     }
                 }
             }

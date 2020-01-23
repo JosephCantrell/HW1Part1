@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joseph\\source\\repos\\HW1Part1\\HW1Part1\\HW1Part1.csproj",
+      "projectUniqueName": "C:\\Users\\Joseph\\Documents\\GitHub\\HW1Part1\\HW1Part1\\HW1Part1.csproj",
       "projectName": "HW1Part1",
-      "projectPath": "C:\\Users\\Joseph\\source\\repos\\HW1Part1\\HW1Part1\\HW1Part1.csproj",
+      "projectPath": "C:\\Users\\Joseph\\Documents\\GitHub\\HW1Part1\\HW1Part1\\HW1Part1.csproj",
       "packagesPath": "C:\\Users\\Joseph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joseph\\source\\repos\\HW1Part1\\HW1Part1\\obj\\",
+      "outputPath": "C:\\Users\\Joseph\\Documents\\GitHub\\HW1Part1\\HW1Part1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Joseph\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -9,3 +9,14 @@ C:\Users\Joseph\source\repos\HW1Part1\HW1Part1\obj\Debug\netcoreapp3.1\HW1Part1.
 C:\Users\Joseph\source\repos\HW1Part1\HW1Part1\obj\Debug\netcoreapp3.1\HW1Part1.AssemblyInfo.cs
 C:\Users\Joseph\source\repos\HW1Part1\HW1Part1\obj\Debug\netcoreapp3.1\HW1Part1.dll
 C:\Users\Joseph\source\repos\HW1Part1\HW1Part1\obj\Debug\netcoreapp3.1\HW1Part1.pdb
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\bin\Debug\netcoreapp3.1\HW1Part1.exe
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\bin\Debug\netcoreapp3.1\HW1Part1.deps.json
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\bin\Debug\netcoreapp3.1\HW1Part1.runtimeconfig.json
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\bin\Debug\netcoreapp3.1\HW1Part1.runtimeconfig.dev.json
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\bin\Debug\netcoreapp3.1\HW1Part1.dll
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\bin\Debug\netcoreapp3.1\HW1Part1.pdb
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\obj\Debug\netcoreapp3.1\HW1Part1.csprojAssemblyReference.cache
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\obj\Debug\netcoreapp3.1\HW1Part1.AssemblyInfoInputs.cache
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\obj\Debug\netcoreapp3.1\HW1Part1.AssemblyInfo.cs
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\obj\Debug\netcoreapp3.1\HW1Part1.dll
+C:\Users\Joseph\Documents\GitHub\HW1Part1\HW1Part1\obj\Debug\netcoreapp3.1\HW1Part1.pdb
