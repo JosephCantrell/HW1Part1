@@ -42,6 +42,15 @@ namespace HW1Part1
                             Console.WriteLine("Decrpyted Message: " + decryptedResult);
                             userInput = "";
                         }
+                        else
+                        {
+                            Console.Write("Input the ciphertext you want to decrypt: ");
+                            userInput = Console.ReadLine();
+                            Console.Write("What is your key: ");
+                            string userShift = Console.ReadLine();
+                            decryptedResult = EncDec(userInput, 2, Convert.ToInt32(userShift));
+                            Console.WriteLine("Plaintext Message: " + decryptedResult);
+                        }
                     }
                     else
                     {
@@ -69,12 +78,54 @@ namespace HW1Part1
             {
                 string temp = input.Substring(i, 1);
                 char tempChar = temp.ToCharArray()[0];
+                char printOrigChar = tempChar;
+                
                 if (!Char.IsWhiteSpace(tempChar))
                 {
-                    tempChar = (char)((byte)tempChar + modifiedAmount);
+                    int tempCharNumber = (byte)tempChar + modifiedAmount;
+                    if(printOrigChar >= 65 && printOrigChar <= 90)              // if our number is between upper case chars
+                    {
+                        if (tempCharNumber > 90 || tempCharNumber < 65)
+                        {
+                            int difference = 90 - 65;
+                            if (modifiedAmount > 0)                                  // D
+                            {
+                                tempChar = (char)((byte)(tempCharNumber - difference));
+                            }
+                            else
+                            {
+                                tempChar = (char)((byte)(tempCharNumber + difference));
+                            }
+                        }
+                        else
+                        {
+                            tempChar = (char)tempCharNumber;
+                        }
+                    }
+                    else
+                    {
+                        int difference = 97 - 122;
+                        if(tempCharNumber > 122 || tempCharNumber < 97)
+                        {
+                            if (modifiedAmount > 0)                                  // D
+                            {
+                                tempChar = (char)((byte)(tempCharNumber + difference));
+                            }
+                            else
+                            {
+                                tempChar = (char)((byte)(tempCharNumber - difference));
+                            }
+                        }
+                        else
+                        {
+                            tempChar = (char)tempCharNumber;
+                        }
+                    }
+                    
                 }
                 result = result + tempChar;
-                //Console.WriteLine("Current char: " + temp + " End Char: " + tempChar);
+                Console.WriteLine("Current char ascii: " + (byte)printOrigChar + " End Char Ascii: " + (byte)tempChar);
+                Console.WriteLine("Current char: " + temp + " End Char: " + tempChar);
             }
 
             return result;
